@@ -11,8 +11,9 @@ const styles = StyleSheet.create({
         width:'80%',
         borderWidth:1,
         borderRadius: 5,
-        padding:8,
+        padding:10,
         fontSize:25,
+        backgroundColor:'#E2E2D9',
         marginTop:10,
     },
     title:{
@@ -20,25 +21,26 @@ const styles = StyleSheet.create({
         fontWeight:'bold'
     },
     caixas:{
-        marginTop:100,
         alignItems:'center',
         justifyContent:'center',
-        padding:40,
+        backgroundColor:'#4F181F',
+        padding:210,
     },
     btnOk:{
-        marginTop:20,
+        marginTop:10,
         borderWidth:1,
         borderRadius:10,
-        width:'50%',
+        width: 140,
         height:50,
-        backgroundColor:'#5a7bb0',
+        backgroundColor:'#901F2C',
         alignItems:'center',
         justifyContent:'center',
     },
     box_login:{
-        height: 80,
+        height: 40,
         marginTop: 10,
-        padding: 20,
+        padding: 30,
+        backgroundColor:'#4F181F',
 
     },
 })
