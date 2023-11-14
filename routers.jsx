@@ -49,43 +49,24 @@ function MyTabs() {
                 }}
             />
             <Tab.Screen
-                name="Create"
+                name="credit-card"
                 component={Create}
                 options={{
                     headerShown:false,
                     tabBarIcon: ({ size, color }) => (
-                        <Feather name="folder-plus" size={size} color={color} />
+                        <Feather name="credit-card" size={size} color={color} />
                     )
                 }} />
             <Tab.Screen
-                name="Read"
+                name="user"
                 component={Read}
                 options={{
                     headerShown:false,
                     tabBarIcon: ({ size, color }) => (
-                        <Feather name="file" size={size} color={color} />
+                        <Feather name="user" size={size} color={color} />
                     )
                 }}
             />
-            <Tab.Screen
-                name="Update"
-                component={Update}
-                options={{
-                    headerShown:false,
-                    tabBarIcon: ({ size, color }) => (
-                        <Feather name="edit" size={size} color={color} />
-                    )
-                }}
-            />
-            <Tab.Screen
-                name="Delete"
-                component={Delete}
-                options={{
-                    headerShown:false,
-                    tabBarIcon: ({ size, color }) => (
-                        <Feather name="delete" size={size} color={color} />
-                    )
-                }} />
         </Tab.Navigator>
     );
 }

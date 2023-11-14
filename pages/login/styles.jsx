@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
         padding:10,
         fontSize:25,
         backgroundColor:'#E2E2D9',
-        marginTop:10,
+        marginTop:14,
     },
     title:{
         fontSize: 40,
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     caixas:{
         alignItems:'center',
         justifyContent:'center',
-        backgroundColor:'#4F181F',
+        backgroundColor:'#D6D6B1',
         padding:210,
     },
     btnOk:{

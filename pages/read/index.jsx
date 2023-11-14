@@ -6,7 +6,7 @@ export default function Read({navigation}){
 
     return(
         <View style={styles.container}>
-            <Text style={styles.txt}>Read</Text>
+            <Text style={styles.txt}></Text>
         </View>       
     )
 }
