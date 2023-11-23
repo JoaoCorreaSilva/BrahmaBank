@@ -10,10 +10,9 @@ export default function Home({ navigation, route }) {
     return (
       <View style={styles.cima}>
         <View>
-          <Text>Descrição do cabeçalho</Text>
+        <Icon name="user" size={40} color="black" />
         </View>
-        {/* O restante do conteúdo do seu componente */}
-        <Text>Outro conteúdo do componente...</Text>
+         <Text>Olá Paula</Text>
       </View>
     );
   };
@@ -21,13 +20,6 @@ export default function Home({ navigation, route }) {
   return (
     <View style={styles.container}>
       <Menu />
-      <View>
-        <Text style={styles.txt}></Text>
-      </View>
-      <View>
-        <Text>Olá Paula</Text>
-        <Icon name="user" size={40} color="black" />
-      </View>
     </View>
   );
 }
