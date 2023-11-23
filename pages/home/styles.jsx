@@ -12,8 +12,11 @@ const styles = StyleSheet.create({
     txt:{
         fontSize: 30,
         color:'#fff'
+    },
+    cima:{
+        height:100,
+        width:200,
     }
-
 })
 
 export default styles
