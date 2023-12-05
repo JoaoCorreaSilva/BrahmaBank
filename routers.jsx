@@ -78,17 +78,17 @@ export default function Routers() {
         <NavigationContainer>
             <Pilha.Navigator>
 
-                <Pilha.Screen
+                {/* <Pilha.Screen
                     name="MyTabs"
                     component={MyTabs}
                     options={{ headerShown: false }}
-                />
+                /> */}
 
-                <Pilha.Screen
+                {/* <Pilha.Screen
                     name="Login"
                     component={Login}
                     options={{ headerShown: false }}
-                />
+                /> */}
 
 
                 <Pilha.Screen
@@ -97,35 +97,35 @@ export default function Routers() {
                     options={{ headerShown: false }}
                 />
 
-                <Pilha.Screen
+                {/* <Pilha.Screen
                     name="SignUp"
                     component={SignUp}
                     options={{ headerShown: false }}
-                />
+                /> */}
 
-                <Pilha.Screen
+                {/* <Pilha.Screen
                     name="Create"
                     component={Create}
                     options={{ headerShown: false }}
-                />
+                /> */}
 
-                <Pilha.Screen
+                {/* <Pilha.Screen
                     name="Read"
                     component={Read}
                     options={{ headerShown: false }}
-                />
+                /> */}
 
-                <Pilha.Screen
+                {/* <Pilha.Screen
                     name="Update"
                     component={Update}
                     options={{ headerShown: false }}
-                />
+                /> */}
 
-                <Pilha.Screen
+                {/* <Pilha.Screen
                     name="Delete"
                     component={Delete}
                     options={{ headerShown: false }}
-                />
+                /> */}
 
             </Pilha.Navigator>
         </NavigationContainer>

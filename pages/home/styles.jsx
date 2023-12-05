@@ -16,6 +16,12 @@ const styles = StyleSheet.create({
     cima:{
         height:600,
         width:300,
+    },
+    viewBotoes:{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-around",
+        width: "100%"
     }
 })
 
